@@ -24,6 +24,7 @@ RUN apt-get update \
 #   libmariadb-client-lgpl-dev \
     libmysqlclient-dev \
     python3 \
+    proxychains4 \
     python3-pip\
     && useradd -d /home/container -m container
 
